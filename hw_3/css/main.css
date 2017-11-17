@@ -1,0 +1,341 @@
+.main {
+    float:left;
+    width: 300px;
+    height: 180px;
+    border: 2px solid black;
+    margin:10px;
+   }
+body{
+	padding: 0px;
+	margin: 0px;
+}/*-------------------------радуга------------------------*/
+.rain_a {
+    height: 30px;
+  background:red ;
+  }
+.rain_b {
+    height: 30px;
+  background:orange ;
+  }
+.rain_c {
+    height:  30px;
+  background:yellow ;
+  }
+.rain_d {
+    height:  30px;
+  background:green;
+  }
+.rain_i {
+    height:  30px;
+  background:blue ;
+  }
+.rain_f {
+    height:  30px;
+  background:purple ;
+  }
+/*-------------------------бельгия-нигерия-------------------*/
+.belgia:hover .belgia_a{
+  background:green;
+}
+.belgia:hover .belgia_b{
+  background:white;
+}
+.belgia:hover .belgia_c{
+  background:green;
+}
+.belgia_a { 
+  float:left;
+  width:100px;
+  height: 180px;
+ background:black;
+ }
+.belgia_b{
+  float:left;
+  width:100px;
+  height: 180px;
+ background:yellow;
+ }
+.belgia_c{ 
+  float:left;
+  width:100px;
+  height: 180px;
+ background:red;
+}
+/*-------------------------вьетнам--сомали------------------*/
+.vietnam_background{
+  background:red;
+}
+.vietnam_background:hover {
+background: #1e7fec;
+}
+.vietnam_background:hover .star-five{
+ border-bottom: 42px solid white;
+}
+.vietnam_background:hover .star-five:before{
+ border-bottom: 43px solid white;
+}
+.vietnam_background:hover .star-five:after{
+ border-bottom: 42px solid white;
+}
+.star-five {
+     margin:70px 0 0 90px;
+   position: relative;
+   display: block;
+   color:red ;
+   width: 0px;
+   height: 0px;
+   border-right:  60px solid transparent;
+   border-bottom: 42px solid yellow;
+   border-left:   60px solid transparent;
+  -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+  }
+.star-five:before {
+   border-bottom: 43px solid yellow;
+   border-left: 16px solid transparent;
+   border-right: 16px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -30px;
+   left: -40px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+}
+  
+.star-five:after {
+  position: absolute;
+   display: block;
+   color: red;
+   top: 3px;
+   left: -64px;
+   width: 0px;
+   height: 0px;
+   border-right: 60px solid transparent;
+   border-bottom: 42px solid yellow;
+   border-left: 60px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+/*-------------------------грузия------------------------*/
+.gorgia{
+		background: red;
+}
+.rectangle{
+	padding:0px;
+	margin: 0px;
+	width: 130px;
+	height: 70px;
+	background: white;
+}
+
+.rectangle_a{
+	float: left;
+}
+.rectangle_b{
+	float: right;
+}
+	.main_mid{
+	width: 300px;
+	height:40px;
+	background:red;
+	float:left;
+}
+.rectangle_c{
+	float: left;
+}
+.rectangle_d{
+	float: right;
+}
+.sector_mama{
+	padding: 0px;
+	margin: 10px  40px;
+	width: 50px;
+	height:50px;
+	background: red;
+}
+.sector{
+	height:20px;
+	width: 20px;
+}
+.sector_a {
+	background:white;
+	float: left;
+}
+.sector_b {
+	background:white;
+	float: right;
+}
+.mama_mid {
+	height:10px;
+	width: 50px;
+	background:red;
+	float:left;
+}
+.sector_d {
+	background:white;
+	float: left;
+}
+.sector_f {
+	background:white;
+	float: right;
+}
+/*-------------------------великая британия------------------------*/
+.british {
+    position:relative;
+    background:#cf1421;
+    float:left;
+ }
+.top_sq_odin{
+    position:absolute;
+    width:0; 
+    height:0; 
+    border-top:80px solid #fff; 
+    border-left:135px dashed transparent; 
+    border-right:135px dashed transparent;
+}
+.left_sq_odin{
+    position:absolute;
+    bottom: 0px;
+    width:0; 
+    height:0; 
+    border-top:80px dashed transparent;
+    border-left:135px solid #fff; 
+    border-bottom:80px dashed transparent;
+}
+.right_sq_odin{
+    position:absolute;
+    top: 0px;
+    width:0; 
+    height:0; 
+    border-top:80px dashed transparent; 
+    border-bottom:80px dashed transparent; 
+    border-right:135px solid #fff;
+    border-left:165px dashed transparent; 
+}  
+.bot_sq_odin{
+    position:absolute;
+    right:0px;
+    width:0; 
+    height:0; 
+    border-left:135px dashed transparent;
+    border-bottom:80px solid white; 
+    border-right:135px dashed transparent;
+    border-top:100px dashed transparent ;
+}
+.top_sq_dwa{
+    position:absolute;
+    left: 28px;
+    width:0; 
+    height:0; 
+    border-top:68px solid #00247d; 
+    border-left:115px dashed transparent; 
+    border-right:115px dashed transparent;
+}
+.left_sq_dwa{
+    position:absolute;
+    bottom: 24px;
+    width:0; 
+    height:0; 
+    border-top:65px dashed transparent;
+    border-left:110px solid #00247d; 
+    border-bottom:65px dashed transparent;
+}
+.right_sq_dwa{
+    position:absolute;
+    top: 24px;
+    width:0; 
+    height:0; 
+    border-top:65px dashed transparent; 
+    border-bottom:65px dashed transparent; 
+    border-right:110px solid #00247d;
+    border-left:190px dashed transparent; 
+}   
+.bot_sq_dwa{
+    position:absolute;
+    right:28px;
+    width:0; 
+    height:0; 
+    border-left:115px dashed transparent;
+    border-bottom:68px solid #00247d; 
+    border-right:115px dashed transparent;
+    border-top:112px dashed transparent ;
+}
+.gor_white{
+    position:absolute;
+    width: 300px;
+    height: 60px;
+   background: white;
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.perp_white{
+    position:absolute;
+    width: 60px;
+    height: 180px;
+   background: white;
+     margin-left: 120px;
+       
+}
+.gor_blue{
+    position:absolute;
+    width: 300px;
+    height: 40px;
+   background: #cf1421;
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.perp_blue{
+    position:absolute;
+    width: 40px;
+    height: 180px;
+   background: #cf1421;
+     margin-left: 130px;
+    
+}
+/*-------------------------багамамама------------------------*/
+.bagams{
+  background: #00aecd;
+ }
+.midle_line{
+    position:absolute;
+    width: 300px;
+    height: 60px;
+   background: #ffe443;
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.left_sq{
+    position:absolute;
+    width:0; 
+    height:0; 
+    border-top:90px dashed transparent;
+    border-left:120px solid #000; 
+    border-bottom:90px dashed transparent;
+}
+/*------------------------За ВДВ------------------------*/
+.sky{
+    position:relative;
+    background:#0d9d40;
+   }
+.ground{
+    background:#30b0d8;
+    width: 300px;
+    height:120px;
+   }
+.img_vdv {
+    position:absolute;
+    left:75px;top:50px;
+}

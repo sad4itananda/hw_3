@@ -1,0 +1,112 @@
+body {
+	font-family:  sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background: url('../img/blok1 fon.png') no-repeat center top / cover;
+	height: 550px;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	
+}
+.logo {
+margin-top: 40px;
+float: left;
+}
+nav {
+
+float: right; 
+margin-top: 75px;
+display: block;
+b
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+	
+}
+ li { 	
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+    font-size: 14px;
+    color:white;
+}
+.titlesfirst {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+h1{
+	font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.titles{margin-top: 110px;
+    margin-left: 40px;float: left;
+}
+.button{
+   display: inline-block;
+  width: 100px;
+  padding: 8px;
+  color: #48bf72;
+  border: 1px solid #48bf72;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-size: 15px;
+}
+.button:hover{
+	font-size: 25px;
+	width: 160px;
+	 border: 3px solid #25bf42;
+} 
+.sectio {
+	height: 950px;
+}
+.section {
+	background: url('../img/blok3fon.png') no-repeat center top / cover;
+	height: 400px;
+}
+.sectionn {
+	height: 480px;
+}
+footer {
+	background: url('../img/blok5 fon.png') no-repeat center top / cover;
+	height: 200px;
+}
+.menutwo {
+	padding: 0;
+	margin: 0;
+	font-weight: bold; 
+    
+}
+.menutwo li a{
+	text-decoration: none;
+	text-transform: uppercase;
+    font-size: 14px;
+    color:#3c4955;
+
+
+
+}
+.dannye{
+	display: flex; 
+align-items: center; 
+justify-content: center;
+padding: 200px;
+  background: #ccc;
+
+}

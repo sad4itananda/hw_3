@@ -1,0 +1,16 @@
+body{
+	background-color:#888;
+	font-weight: 900;
+	font-size: 100px;
+	
+}
+a{
+	text-decoration: none;
+	color:#1c9d1e;
+	text-transform: uppercase;
+	}
+	a:hover{
+		color:#13cf3b;
+		text-transform: uppercase;
+
+	}
