@@ -5,8 +5,9 @@ body {
 }
 
 header {
-	background: url('../img/blok1 fon.png') no-repeat center top / cover;
+	background: url('../img/blok1 fon.png') no-repeat center top / cover; 
 	height: 550px;
+
 }
 .container {
 	width: 1140px;
@@ -14,17 +15,15 @@ header {
 	
 }
 .logo {
-margin-top: 40px;
-float: left;
+     margin-top: 40px;
+     float: left;
 }
 nav {
-
-float: right; 
-margin-top: 75px;
-display: block;
-b
+    float: right; 
+    margin-top: 65px;
+    display: block;
 }
-.menu{
+.menu_header{
 	padding: 0;
 	margin: 0;
 	display: block;
@@ -35,17 +34,28 @@ b
 	display: block;
 	margin-right: 41px;
 }
-.menu li a {
+.menu_header li a {
 	text-decoration: none;
-	text-transform: uppercase;
     font-size: 14px;
     color:white;
+
+}
+.menu_header li a:hover{
+	box-shadow: 5px 4px 25px 5px rgba(0,0,0,0.5);
+	 border-radius: 2px;
+}
+.menu_header li:nth-child(even) {
+	color: rgba(170,170,170, 0.6);
+	font-weight:100;
+
 }
 .titlesfirst {
     font-size: 35px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
+    font-weight:thin;
+    font-family:;
 }
 h1{
 	font-size: 45px;
@@ -69,9 +79,8 @@ h1{
   font-size: 15px;
 }
 .button:hover{
-	font-size: 25px;
-	width: 160px;
-	 border: 3px solid #25bf42;
+    box-shadow: 5px 4px 25px 2px rgba(0,0,0,0.5);
+	border: 2px solid ;
 } 
 .sectio {
 	height: 950px;
@@ -87,26 +96,29 @@ footer {
 	background: url('../img/blok5 fon.png') no-repeat center top / cover;
 	height: 200px;
 }
-.menutwo {
-	padding: 0;
-	margin: 0;
-	font-weight: bold; 
-    
+.menutwo li {
+	padding: 0px;
+	margin: 0 15px ;
+	font-weight:bold; 
+	    
 }
 .menutwo li a{
 	text-decoration: none;
 	text-transform: uppercase;
     font-size: 14px;
     color:#3c4955;
-
-
+    background-color:gainsboro;
+    border-radius: 4px;
+    padding: 8px;
+}
+.menutwo li a:hover{
+     background-color:#48bf72;
 
 }
 .dannye{
 	display: flex; 
-align-items: center; 
-justify-content: center;
-padding: 200px;
-  background: #ccc;
+    align-items: center; 
+    justify-content: center;
+    background: #ccc;
 
 }
