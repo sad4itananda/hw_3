@@ -1,110 +1,108 @@
 body {
-	font-family:  sans-serif;
-	padding: 0;
-	margin: 0;
+	  font-family:  sans-serif;
+	  padding: 0;
+	  margin: 0;
 }
 
-header {
-	background: url('../img/blok1 fon.png') no-repeat center top / cover; 
-	height: 550px;
+.header_home {
+	  background: url('../img/blok1 fon.png') no-repeat center top / cover; 
+	  height: 550px;
 
 }
 .container {
-	width: 1140px;
-	margin: 0 auto;
-	
-}
+	  width: 1120px;
+	  margin: 0 auto;
+    border: 2px solid black;
+   }
 .logo {
      margin-top: 40px;
      float: left;
 }
-nav {
+.menu_header_home {
     float: right; 
     margin-top: 65px;
     display: block;
 }
 .menu_header{
-	padding: 0;
-	margin: 0;
-	display: block;
-	
+	  padding: 0;
+  	margin: 0;
+  	display: block;
 }
- li { 	
-	float: left;
-	display: block;
-	margin-right: 41px;
+li { 	
+	  float: left;
+  	display: block;
+	  margin-right: 41px;
 }
 .menu_header li a {
-	text-decoration: none;
+	  text-decoration: none;
     font-size: 14px;
     color:white;
 
 }
 .menu_header li a:hover{
-	box-shadow: 5px 4px 25px 5px rgba(0,0,0,0.5);
-	 border-radius: 2px;
+	  box-shadow: 5px 4px 25px 5px rgba(0,0,0,0.5);
+	  border-radius: 2px;
 }
 .menu_header li:nth-child(even) {
-	color: rgba(170,170,170, 0.6);
-	font-weight:100;
+	  color: rgba(170,170,170, 0.6);
+  	font-weight:100;
 
 }
-.titlesfirst {
+.header_home_titles_second_title {
     font-size: 35px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
     font-weight:thin;
-    font-family:;
-}
+ }
 h1{
-	font-size: 45px;
+	  font-size: 45px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
 }
-.titles{margin-top: 110px;
-    margin-left: 40px;float: left;
+.header_home_titles{
+    margin-top: 7%;
+    margin-left:2%;float:left;
+    border: 2px solid black;
 }
 .button{
-   display: inline-block;
-  width: 100px;
-  padding: 8px;
-  color: #48bf72;
-  border: 1px solid #48bf72;
-  border-radius: 5px;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  font-size: 15px;
+    display: inline-block;
+    width: 100px;
+    padding: 8px;
+    color: #48bf72;
+    border: 1px solid #48bf72;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-size: 15px;
 }
 .button:hover{
     box-shadow: 5px 4px 25px 2px rgba(0,0,0,0.5);
-	border: 2px solid ;
+	  border: 2px solid ;
 } 
-.sectio {
-	height: 950px;
+.section_two_home {
+	  height: 950px;
 }
 .section {
-	background: url('../img/blok3fon.png') no-repeat center top / cover;
-	height: 400px;
+	  background: url('../img/blok3fon.png') no-repeat center top / cover;
+	  height: 400px;
 }
 .sectionn {
-	height: 480px;
+	  height: 480px;
 }
-footer {
-	background: url('../img/blok5 fon.png') no-repeat center top / cover;
-	height: 200px;
+.menutwo{
+    margin: 10 auto;
 }
 .menutwo li {
-	padding: 0px;
-	margin: 0 15px ;
-	font-weight:bold; 
-	    
+	  padding: 0px;
+	  font-weight:bold; 
+
 }
 .menutwo li a{
-	text-decoration: none;
-	text-transform: uppercase;
+	  text-decoration: none;
+	  text-transform: uppercase;
     font-size: 14px;
     color:#3c4955;
     background-color:gainsboro;
@@ -113,12 +111,61 @@ footer {
 }
 .menutwo li a:hover{
      background-color:#48bf72;
-
 }
-.dannye{
-	display: flex; 
-    align-items: center; 
-    justify-content: center;
-    background: #ccc;
-
+/*------------fsection_three-------------------*/
+.section_three_home{
+   background: url('../img/blok3fon.png') no-repeat center top / cover; 
+    height: 450px;
+}
+.section_two_home_text{
+  float: right;
+  width:50%;
+  margin-top: 7%;
+  color:white;
+  line-height: 1.5em;
+}
+/*------------footer-------------------------*/
+footer {
+    background: url('../img/blok5 fon.png') no-repeat center top / cover;
+    height: 200px;
+}
+/*------------form-------------------------*/
+.contact_form_nom, .contact_form_mail, .contact_form_message {
+    border: 1px solid rgb(60, 73, 85);
+    border-radius: 3px;
+    background-color: rgb(241, 241, 241);
+    font-size: 16px;
+    font-family: "LATHA";
+    color: rgb(166, 165, 165);
+    font-weight: bold;
+    text-indent: 1em;
+}
+.contact_form_nom {
+    margin-top: -5px;
+    line-height: 1.6;
+    height:48px;
+    width:270px;
+}
+.contact_form_mail {
+    margin-top: -5px;
+    line-height: 1.6;
+    height:48px;
+    width:270px;
+}
+.contact_form_message {
+    line-height: 2.6;
+    height: 222px;
+    width: 623px;
+}
+.contact_form_submit {
+    height:50px;
+    width:690px;
+    background: #33cc66;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
 }
